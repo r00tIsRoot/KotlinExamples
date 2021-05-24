@@ -17,7 +17,7 @@ open class Human(val name: String = "Anonymous") {
 class Developer(name: String, age: Int) : Human(name, age) {
 
     init {
-        println("trash codes!")
+        println("trash codes!") //git test
     }
 
     override fun introduceSelf(){
